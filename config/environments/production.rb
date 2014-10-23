@@ -78,6 +78,6 @@ Rails.application.configure do
 
     #required for Heroku
     #set this to actual production link
-  config.action_mailer.default_url_options = { host: => 'tc-pinteresting.herokuapp.com'}
+  config.action_mailer.default_url_options = { host: 'tc-pinteresting.herokuapp.com'}
 
 end
