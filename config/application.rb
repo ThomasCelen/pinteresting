@@ -22,5 +22,8 @@ module Pinteresting
 
     # Required for Heroku
     config.assets.initialize_on_precompile = false
+
+    Paperclip.options[:content_type_mappings] = { jpeg: 'image/jpeg', jpg: 'image/jpeg'}
+
   end
 end
