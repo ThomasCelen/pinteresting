@@ -24,6 +24,6 @@ module Pinteresting
     config.assets.initialize_on_precompile = false
 
     Paperclip.options[:content_type_mappings] = { jpeg: 'image/jpeg', jpg: 'image/jpeg'}
-
+    Paperclip::Attachment.default_options[:s3_host_name] = 's3-us-west-2.amazonaws.com'
   end
 end
