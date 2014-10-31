@@ -1,3 +1,18 @@
 // Place all the styles related to the pins controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+//this allows you to center all the pins.
+#pins {
+	margin: 0 auto;
+}
+
+//this will set the margin and width for a pin.
+.box {
+	margin: 5px;
+	width: 214px;
+}
+
+.box img {
+	width: 100%;
+}
